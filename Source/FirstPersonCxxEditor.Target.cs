@@ -8,6 +8,7 @@ public class FirstPersonCxxEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		BuildEnvironment = TargetBuildEnvironment.Unique;
 		ExtraModuleNames.Add("FirstPersonCxx");
 	}
 }
