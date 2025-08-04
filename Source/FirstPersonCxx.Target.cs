@@ -8,7 +8,7 @@ public class FirstPersonCxxTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		BuildEnvironment = TargetBuildEnvironment.Unique;
+		bOverrideBuildEnvironment = true;
 		ExtraModuleNames.Add("FirstPersonCxx");
 	}
 }
